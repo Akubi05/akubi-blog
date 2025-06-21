@@ -1,0 +1,3 @@
+[submodule "themes/tangyuxian"]
+	path = themes/tangyuxian
+	url = https://github.com/tangyuxian/hexo-theme-tangyuxian.git
