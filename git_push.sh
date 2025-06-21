@@ -25,6 +25,17 @@ else
     exit 1
 fi
 
+# ==== Hexo 部署部分 ====
+echo "🛠️ 正在生成 Hexo 静态文件..."
+hexo clean
+hexo g
+
+echo "🚀 正在部署 Hexo 到远程仓库..."
+hexo d
+
+echo "🎉 Hexo 部署完成！"
+
+# ==== Git 提交部分 ====
 # 添加更改并提交
 echo "🔄 正在添加更改..."
 git add .
