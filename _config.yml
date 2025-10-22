@@ -105,8 +105,8 @@ ignore:                     # 忽略的文件（更高优先级）
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: tangyuxian           # 当前使用的主题名，对应 themes/tangyuxian
-# theme: hexo-theme-butterfly-dev
+# theme: tangyuxian           # 当前使用的主题名，对应 themes/tangyuxian
+theme: hexo-theme-butterfly-dev
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
